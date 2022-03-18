@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 my-2" *ngFor="let item of characters">
+      <div class="card h-100" style="width: 18rem;">
+
+        <img src="{{item.imageUrl}}" class="card-img-top h-50" alt="...">
+
+        <div class="card-body">
+          <h3 class="card-title">{{item.name}}</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+
+        </div>
+        <div class="card-footer text-center border-0 bg-white"> <button href="#" class="btn btn-primary" (click)="goTv(item)">Detail</button>
+        </div>
+
+      </div>
+    </div>
+  </div>

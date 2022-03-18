@@ -1,0 +1,33 @@
+<div class=" h-75 d-flex flex-row" >
+   <div class="w-100 text-center">
+  <img src="{{character.imageUrl}}" class="" alt="...">
+  <h2 class="w-100 my-4 text-center">{{character.name}}</h2>
+</div>
+  <div class="w-100">
+    
+    <h3 class=""><strong>Tv Shows : </strong></h3>
+  
+   
+      <ul>
+        <li *ngFor="let item of tvshow ">{{item}}
+
+        </li>
+      </ul>
+      <h3 class=""><strong>Films : </strong></h3>
+  
+     
+      <ul>
+        <li *ngFor="let item of films ">{{item}}
+
+        </li>
+      </ul>
+
+      <h3 class=""><strong>Videogames : </strong></h3>
+      <ul>
+        <li *ngFor="let item of videoGames ">{{item}}
+
+        </li>
+      </ul>
+   
+    </div>
+</div>
