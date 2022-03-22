@@ -1,0 +1,16 @@
+.banner{
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("https://common.framework360.it/SaaS/marke833__SaaS__id_4__env_1/uploads/img/blog/posts/1566389027_marketing-studio-walt-disney.jpg");
+    
+}
+
+.inner{
+   
+    background-color: rgba(255, 255, 255, 0.822);
+    color: #000;
+    
+    
+}
+

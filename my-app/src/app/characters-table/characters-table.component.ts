@@ -22,8 +22,8 @@ export class CharactersTableComponent implements OnInit {
       
       });
   }
-  goTv(item:Character){
-    this.router.navigate(['tvShow',item._id])
+  goDetail(item:Character){
+    this.router.navigate(['detail',item._id])
   }
 
 }

@@ -9,7 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { CharactersTableComponent } from './characters-table/characters-table.component';
-import { FilmsComponent } from './films/films.component';
+import { DetailComponent } from './detail/detail.component';
 
 
 @NgModule({
@@ -19,7 +19,7 @@ import { FilmsComponent } from './films/films.component';
     HomeComponent,
     FooterComponent,
     CharactersTableComponent,
-    FilmsComponent,
+    DetailComponent
 
 
   

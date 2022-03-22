@@ -1,0 +1,73 @@
+<div class="  d-flex flex-row">
+    <div class="w-100 text-center">
+        <div class="card w-50 m-auto border-0 ">
+            <img src="{{character.imageUrl}}" class="shadow-lg" alt="personaggio">
+            <h2 class="w-100 my-4 text-center text-capitalize">{{character.name}}</h2>
+        </div>
+    </div>
+
+
+    <div class="w-100 banner">
+
+        <div class="inner">
+            <h3><strong>Tv Shows : </strong></h3>
+            <ul>
+                <li *ngFor="let item of tvshow ">{{item}}
+
+                </li>
+            </ul>
+
+
+            <h3><strong>Films : </strong></h3>
+
+
+            <ul>
+                <li *ngFor="let item of films ">{{item}}
+
+                </li>
+            </ul>
+
+
+            <h3 class=""><strong>Videogames : </strong></h3>
+            <ul>
+                <li *ngFor="let item of videoGames ">{{item}}
+
+                </li>
+            </ul>
+
+
+            <h3 class=""><strong>Short Films : </strong></h3>
+            <ul>
+                <li *ngFor="let item of shortFilms ">{{item}}
+
+                </li>
+            </ul>
+
+
+            <h3 class=""><strong>Park Attractions : </strong></h3>
+            <ul>
+                <li *ngFor="let item of parkAttractions ">{{item}}
+
+                </li>
+            </ul>
+
+
+            <h3 class=""><strong>Allies : </strong></h3>
+            <ul>
+                <li *ngFor="let item of allies ">{{item}}
+
+                </li>
+            </ul>
+
+
+            <h3 class=""><strong>Enemies : </strong></h3>
+            <ul>
+                <li *ngFor="let item of enemies">{{item}}
+
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>

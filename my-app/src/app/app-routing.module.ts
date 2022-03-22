@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CharactersTableComponent } from './characters-table/characters-table.component';
-import { FilmsComponent } from './films/films.component';
+import { DetailComponent } from './detail/detail.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
@@ -14,8 +14,8 @@ const routes: Routes = [
     component: CharactersTableComponent
   },
   {
-    path: 'tvShow/:_id',
-    component: FilmsComponent
+    path: 'detail/:_id',
+    component: DetailComponent
   }
 
 ];
